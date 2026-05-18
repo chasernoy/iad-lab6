@@ -15,13 +15,13 @@
 ## Запуск
 
 ### 1) Клонирование репозитория
-```bash
-git clone https://github.com/chasernoy/iad-lab6.git
-cd iad-lab6 ```
+`git clone https://github.com/chasernoy/iad-lab6.git
+cd iad-lab6 `
 ### 2) Окружение и зависимости
-``` python3 -m venv .venv
+`
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -U pip
-pip install pandas numpy matplotlib statsmodels scikit-learn pmdarima jupyter ```
+pip install pandas numpy matplotlib statsmodels scikit-learn pmdarima jupyter `
 ### 3) Запуск ноутбука
-``` python3 -m jupyter notebook ```
+`python3 -m jupyter notebook `
